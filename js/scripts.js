@@ -64,4 +64,45 @@ $(document).ready(function() {
 
     $("#output").fadeIn();
   });
+
+  $("#scratch").hover(function() {
+    if($("#resourceImage").attr("src") != "img/scratch.jpg") {
+      $("#resourceImage").fadeOut(function() {
+        $("#resourceImage").attr("src","img/scratch.jpg");
+      })
+      .fadeIn();
+    }
+  });
+  $("#swift").hover(function() {
+    if($("#resourceImage").attr("src") != "img/swift-og.png") {
+      $("#resourceImage").fadeOut(function() {
+        $("#resourceImage").attr("src","img/swift-og.png");
+      })
+      .fadeIn();
+    }
+  });
+  $("#css").hover(function() {
+    if($("#resourceImage").attr("src") != "img/css.png") {
+      $("#resourceImage").fadeOut(function() {
+        $("#resourceImage").attr("src","img/css.png");
+      })
+      .fadeIn();
+    }
+  });
+  $("#python").hover(function() {
+    if($("#resourceImage").attr("src") != "img/python.jpg") {
+      $("#resourceImage").fadeOut(function() {
+        $("#resourceImage").attr("src","img/python.jpg");
+      })
+      .fadeIn();
+    }
+  });
+  $("#javascript").hover(function() {
+    if($("#resourceImage").attr("src") != "img/javascript.jpg") {
+      $("#resourceImage").fadeOut(function() {
+        $("#resourceImage").attr("src","img/javascript.jpg");
+      })
+      .fadeIn();
+    }
+  });
 });
