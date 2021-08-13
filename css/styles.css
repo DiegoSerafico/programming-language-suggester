@@ -49,3 +49,14 @@ html, body {
 #output p {
   margin: 20px;
 }
+
+#resources {
+  background-color: #c8d8e4;
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+#resources h2, h3 {
+  text-align: center;
+}

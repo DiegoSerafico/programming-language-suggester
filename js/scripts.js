@@ -46,7 +46,7 @@ $(document).ready(function() {
     const platformChoice = $("#platformChoice").val();
     const purposeChoice = $("#purposeChoice").val();
 
-    if (nameInput === "" || isNaN(ageInput) || isNaN(swallowSpeed) || ageInput < 0 || swallowSpeed < 0) {
+    if (isNaN(ageInput) || isNaN(swallowSpeed) || ageInput < 0 || swallowSpeed < 0) {
       alert("One or more of your answers may not be valid. Please check your answers and try again");
     }
 
