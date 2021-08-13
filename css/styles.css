@@ -1,0 +1,49 @@
+body {
+  background-color: azure;
+}
+
+.container {
+  background-color: #2b6777;
+}
+
+.jumbotron {
+  background-color: azure;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+}
+
+.jumbotron h2 {
+  color: dimgray;
+  font-size: 25px;
+}
+
+#formOne {
+  background-color: #c8d8e4;
+  border: 1px solid black;
+}
+
+.form-group {
+  margin: 20px;
+}
+
+#formOne .btn {
+  background-color: #52ab98;
+  color: #c8d8e4;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#output {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-image: url("../img/paper.jpg");
+  border: 1px solid black;
+  padding: 17px;
+}
+
+#output p {
+  margin: 20px;
+}
