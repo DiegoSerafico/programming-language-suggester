@@ -9,7 +9,39 @@
  </head>
  <body>
    <div class="container">
-     
+     <div class="jumbotron">
+       <h1>Programming Language Suggester</h1>
+       <h2>Answer the questions and figure out wich language is best for you!</h2>
+     </div>
+
+     <form id="formOne">
+      <div class="form-group">
+        <label for="name">What is your name?</label>
+        <input id="name" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="age">What is your age?</label>
+        <input id="age" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="swallowSpeed">What is the speed of an unladen swallow?</label>
+        <input id="swallowSpeed" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="platform">Apple or Windows?</label>
+        <select id="platform" class="form-control">
+          <option>Apple</option>
+          <option>Windows</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn">Submit</button>
+
+     </form>
+
+     <div id="output">
+       <p>Based on your answers, the best language for you to learn first is <span id="firstLanguage"></span></p>
+     </div>
    </div>
  </body>
 </html>
