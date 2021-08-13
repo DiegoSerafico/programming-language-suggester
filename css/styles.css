@@ -38,6 +38,10 @@ html, body {
   margin-bottom: 20px;
 }
 
+#formOne .btn:hover {
+  background-color: black;
+}
+
 #output {
   display: none;
   margin-top: 20px;
