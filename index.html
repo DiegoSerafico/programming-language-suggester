@@ -16,22 +16,29 @@
 
      <form id="formOne">
       <div class="form-group">
-        <label for="name">What is your name?</label>
-        <input id="name" class="form-control" type="text">
+        <label for="nameInput">What is your name?</label>
+        <input id="nameInput" class="form-control" type="text">
       </div>
       <div class="form-group">
-        <label for="age">What is your age?</label>
-        <input id="age" class="form-control" type="text">
+        <label for="ageInput">What is your age?</label>
+        <input id="ageInput" class="form-control" type="text">
       </div>
       <div class="form-group">
         <label for="swallowSpeed">What is the speed of an unladen swallow?</label>
         <input id="swallowSpeed" class="form-control" type="text">
       </div>
       <div class="form-group">
-        <label for="platform">Apple or Windows?</label>
-        <select id="platform" class="form-control">
+        <label for="platformChoice">Apple or Windows?</label>
+        <select id="platformChoice" class="form-control">
           <option>Apple</option>
           <option>Windows</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="purposeChoice">Function or Design?</label>
+        <select id="purposeChoice" class="form-control">
+          <option>Function</option>
+          <option>Design</option>
         </select>
       </div>
 
@@ -40,7 +47,8 @@
      </form>
 
      <div id="output">
-       <p>Based on your answers, the best language for you to learn first is <span id="firstLanguage"></span></p>
+       <p>Hello <span id="nameOutput"></span>,<br>
+        Based on your answers, the best language for you to learn first is <span id="firstLanguage"></span></p>
      </div>
    </div>
  </body>
